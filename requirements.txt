@@ -1,0 +1,42 @@
+# Online Examination System - Enhanced Version Requirements
+
+# Core Dependencies (Built-in with Python 3.6+)
+# tkinter - GUI framework (included with Python)
+# sqlite3 - Database connectivity (included with Python)
+# json - Configuration management (included with Python) 
+# datetime - Date/time handling (included with Python)
+# os - Operating system interface (included with Python)
+# hashlib - Password hashing (included with Python)
+# typing - Type hints (included with Python 3.5+)
+
+# Optional Dependencies for Enhanced Features
+# Install with: pip install reportlab
+
+# PDF Generation (Optional - for enhanced PDF reports)
+reportlab>=3.5.0
+
+# Development Dependencies (Optional)
+# Uncomment if you want development tools:
+
+# pytest>=6.0.0        # For testing
+# flake8>=4.0.0        # For code linting
+# black>=22.0.0        # For code formatting
+
+# Installation Instructions:
+# 1. Core system works with just Python 3.6+ (no pip installs required)
+# 2. For PDF reports: pip install reportlab
+# 3. System gracefully handles missing optional packages
+# 4. All GUI components use built-in tkinter
+
+# Platform Notes:
+# - Ubuntu/Debian: sudo apt-get install python3-tk (if tkinter missing)
+# - CentOS/RHEL: sudo yum install tkinter (if tkinter missing)
+# - macOS: tkinter included with Python from python.org
+# - Windows: tkinter included with Python installer
+
+# System Requirements:
+# - Python 3.6 or higher
+# - 50MB RAM for typical usage  
+# - 10MB disk space
+# - Display: 800x600 minimum (1024x768 recommended)
+

@@ -1,0 +1,46 @@
+{
+    "exam": {
+        "duration_minutes": 30,
+        "questions_per_exam": 10,
+        "randomize_questions": true,
+        "randomize_options": true,
+        "show_results_immediately": true,
+        "allow_review": true,
+        "time_warnings": [
+            10,
+            5,
+            1
+        ]
+    },
+    "ui": {
+        "theme": {
+            "primary": "#2E86AB",
+            "secondary": "#A23B72",
+            "success": "#F18F01",
+            "danger": "#C73E1D",
+            "light": "#F5F5F5",
+            "dark": "#333333"
+        },
+        "window": {
+            "width": 1000,
+            "height": 700,
+            "resizable": true
+        },
+        "fonts": {
+            "default_family": "Arial",
+            "default_size": 12,
+            "title_size": 16,
+            "header_size": 14
+        }
+    },
+    "database": {
+        "filename": "exam_system.db",
+        "backup_enabled": true,
+        "backup_interval_days": 7
+    },
+    "security": {
+        "session_timeout_minutes": 60,
+        "max_login_attempts": 3,
+        "password_min_length": 6
+    }
+}
