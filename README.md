@@ -194,6 +194,7 @@ python setup.py reset
 ## 📞 Support
 
 For issues or questions:
+gmail - theayushchakraborty@gmail.com 
 1. Check the troubleshooting section
 2. Review configuration settings
 3. Ensure all dependencies are installed
